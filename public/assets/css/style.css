@@ -183,6 +183,32 @@ iframe + iframe {
   background: url(http://assistly-assets.pagodabox.com/images/site/sprite.png) no-repeat 0 0;
 }
 
+.pagodabox-launch {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  -webkit-box-shadow: 0 1px 2px #666;
+  -moz-box-shadow: 0 1px 2px #666;
+  box-shadow: 0 1px 2px #666;
+  margin: 0 auto 40px auto;
+  padding: 10px;
+  display: block;
+  color: white;
+  font-size: 17px;
+  line-height: 36px;
+  background: #7BBA55;
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 225px;
+}
+.pagodabox-launch:hover {
+  text-decoration: none;
+  color: white;
+  background: #434241;
+  cursor: pointer;
+}
+
 
 /* RESPONSIVE
 -------------------------------------------------- */
