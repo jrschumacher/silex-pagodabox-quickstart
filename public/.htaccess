@@ -1,0 +1,11 @@
+# APP_ENV
+SetEnv APP_ENV dev
+
+<IfModule mod_rewrite.c>
+   RewriteEngine On
+
+   RewriteCond $1 !^(index\.php)
+   RewriteCond %{REQUEST_FILENAME} !-f
+   RewriteCond %{REQUEST_FILENAME} !-d
+   RewriteRule ^(.*)$ /index.php/$1 [QSA,L]
+</IfModule>

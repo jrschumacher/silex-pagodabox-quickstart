@@ -1,0 +1,6 @@
+# Composer
+composer.lock
+vendor
+
+# Pagoda
+storage/*
